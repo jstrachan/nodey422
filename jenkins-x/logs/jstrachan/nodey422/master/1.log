@@ -1,51 +1,51 @@
 
-Showing logs for build [32mjstrachan-nodey422-master-f47sd-1[0m stage [32mfrom-build-pack[0m and container [32mstep-credential-initializer-tmh9m[0m
-{"level":"warn","ts":1583775210.4167316,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1583775210.4173622,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+Showing logs for build [32mjstrachan-nodey422-master-swv94-1[0m stage [32mfrom-build-pack[0m and container [32mstep-credential-initializer-6lvhn[0m
+{"level":"warn","ts":1583830578.0229325,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1583830578.029546,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
 
-Showing logs for build [32mjstrachan-nodey422-master-f47sd-1[0m stage [32mfrom-build-pack[0m and container [32mstep-working-dir-initializer-jz5xf[0m
-{"level":"warn","ts":1583775211.3879147,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
-{"level":"info","ts":1583775211.3905897,"logger":"fallback-logger","caller":"bash/main.go:64","msg":"Successfully executed command \"sh -c mkdir -p /workspace/source\"; output "}
+Showing logs for build [32mjstrachan-nodey422-master-swv94-1[0m stage [32mfrom-build-pack[0m and container [32mstep-working-dir-initializer-gxngz[0m
+{"level":"warn","ts":1583830579.2640023,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1583830579.276479,"logger":"fallback-logger","caller":"bash/main.go:64","msg":"Successfully executed command \"sh -c mkdir -p /workspace/source\"; output "}
 
-Showing logs for build [32mjstrachan-nodey422-master-f47sd-1[0m stage [32mfrom-build-pack[0m and container [32mstep-place-tools[0m
+Showing logs for build [32mjstrachan-nodey422-master-swv94-1[0m stage [32mfrom-build-pack[0m and container [32mstep-place-tools[0m
 
-Showing logs for build [32mjstrachan-nodey422-master-f47sd-1[0m stage [32mfrom-build-pack[0m and container [32mstep-git-source-jstrachan-nodey422-master-f47sd-xmzn2[0m
-{"level":"warn","ts":1583775958.9915152,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1583775961.4026654,"logger":"fallback-logger","caller":"git/git.go:103","msg":"Successfully cloned https://github.com/*********/nodey422.git @ v0.0.1 in path /workspace/source"}
+Showing logs for build [32mjstrachan-nodey422-master-swv94-1[0m stage [32mfrom-build-pack[0m and container [32mstep-git-source-jstrachan-nodey422-master-swv94-ftkjz[0m
+{"level":"warn","ts":1583831213.419815,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1583831215.1783996,"logger":"fallback-logger","caller":"git/git.go:103","msg":"Successfully cloned https://github.com/*********/nodey422.git @ v0.0.4 in path /workspace/source"}
 
-Showing logs for build [32mjstrachan-nodey422-master-f47sd-1[0m stage [32mfrom-build-pack[0m and container [32mstep-git-merge[0m
+Showing logs for build [32mjstrachan-nodey422-master-swv94-1[0m stage [32mfrom-build-pack[0m and container [32mstep-git-merge[0m
 Using SHAs from PULL_REFS=master:
 WARNING: no SHAs to merge, falling back to initial cloned commit
 
-Showing logs for build [32mjstrachan-nodey422-master-f47sd-1[0m stage [32mfrom-build-pack[0m and container [32mstep-setup-jx-git-credentials[0m
+Showing logs for build [32mjstrachan-nodey422-master-swv94-1[0m stage [32mfrom-build-pack[0m and container [32mstep-setup-jx-git-credentials[0m
 Generated Git credentials file /workspace/xdg_config/git/credentials
 
-Showing logs for build [32mjstrachan-nodey422-master-f47sd-1[0m stage [32mfrom-build-pack[0m and container [32mstep-build-npmrc[0m
+Showing logs for build [32mjstrachan-nodey422-master-swv94-1[0m stage [32mfrom-build-pack[0m and container [32mstep-build-npmrc[0m
 Command "credential" is deprecated, it will be removed on Jun 1 2020.  This is replaced by Tekton's mounted secrets
 WARNING: failed to find Secret npm-token in namespace **
 
-Showing logs for build [32mjstrachan-nodey422-master-f47sd-1[0m stage [32mfrom-build-pack[0m and container [32mstep-build-npm-install[0m
+Showing logs for build [32mjstrachan-nodey422-master-swv94-1[0m stage [32mfrom-build-pack[0m and container [32mstep-build-npm-install[0m
 npm notice created a lockfile as package-lock.json. You should commit this file.
 npm WARN REPLACE_ME@1.0.0 No repository field.
 npm WARN REPLACE_ME@1.0.0 No license field.
 
-up to date in 0.82s
+up to date in 0.952s
 found 0 vulnerabilities
 
 
-Showing logs for build [32mjstrachan-nodey422-master-f47sd-1[0m stage [32mfrom-build-pack[0m and container [32mstep-build-npm-test[0m
+Showing logs for build [32mjstrachan-nodey422-master-swv94-1[0m stage [32mfrom-build-pack[0m and container [32mstep-build-npm-test[0m
 
 > REPLACE_ME@1.0.0 test /workspace/source
 > echo "no test specified" && exit 0
 
 no test specified
 
-Showing logs for build [32mjstrachan-nodey422-master-f47sd-1[0m stage [32mfrom-build-pack[0m and container [32mstep-build-container-build[0m
+Showing logs for build [32mjstrachan-nodey422-master-swv94-1[0m stage [32mfrom-build-pack[0m and container [32mstep-build-container-build[0m
 [36mINFO[0m[0000] Downloading base image node:9-slim           
-2020/03/09 17:46:11 No matching credentials were found, falling back on anonymous
+2020/03/10 09:07:10 No matching credentials were found, falling back on anonymous
 [36mINFO[0m[0001] Error while retrieving image from cache: getting file info: stat /workspace/sha256:0e0175bbe4f8d9d104590d8d2c591017874e30977cb71aaff1cf6fa99479575c: no such file or directory 
 [36mINFO[0m[0001] Downloading base image node:9-slim           
-2020/03/09 17:46:12 No matching credentials were found, falling back on anonymous
+2020/03/10 09:07:11 No matching credentials were found, falling back on anonymous
 [36mINFO[0m[0002] Executing 0 build triggers                   
 [36mINFO[0m[0002] cmd: EXPOSE                                  
 [36mINFO[0m[0002] Adding exposed port: 8080/tcp                
@@ -65,9 +65,9 @@ Showing logs for build [32mjstrachan-nodey422-master-f47sd-1[0m stage [32mfro
 [36mINFO[0m[0002] Taking snapshot of files...                  
 [36mINFO[0m[0002] Using files from context: [/workspace/source] 
 [36mINFO[0m[0002] COPY . .                                     
-[36mINFO[0m[0002] Taking snapshot of files...                  
-[36mINFO[0m[0002] CMD ["npm", "start"]                         
-[36mINFO[0m[0002] No files changed in this command, skipping snapshotting. 
-error pushing image: failed to push to destination gcr.io/myproject/nodey422:0.0.1: Get https://gcr.io/v2/token?scope=repository%3Amyproject%2Fnodey422%3Apush%2Cpull&scope=repository%3Alibrary%2Fnode%3Apull&service=gcr.io: invoking docker-credential-gcr: exit status 1; output: docker-credential-gcr/helper: could not retrieve GCR's access token: google: error getting credentials using GOOGLE_APPLICATION_CREDENTIALS environment variable: open /kaniko-secret/secret.json: no such file or directory
+[36mINFO[0m[0003] Taking snapshot of files...                  
+[36mINFO[0m[0003] CMD ["npm", "start"]                         
+[36mINFO[0m[0003] No files changed in this command, skipping snapshotting. 
+error pushing image: failed to push to destination localhost:5000/myproject/nodey422:0.0.4: Get http://localhost:5000/v2/: dial tcp [::1]:5000: connect: connection refused
 [31m
 Pipeline failed on stage 'from-build-pack' : container 'step-build-container-build'. The execution of the pipeline has stopped.[0m
